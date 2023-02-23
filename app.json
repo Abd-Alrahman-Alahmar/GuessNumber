@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Number_Game",
+    "name": "Number Game",
     "slug": "Number_Game",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/number.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/number.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +21,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "reactnative.numbergame",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/number.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "59bbe9e5-21cb-476f-8e12-ea0b2f39c735"
+      }
     }
   }
 }
